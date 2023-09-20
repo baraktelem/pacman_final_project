@@ -1,0 +1,180 @@
+Restore Archived Project report for Lab1Demo
+Thu Sep 14 00:09:40 2023
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Sep 14 00:09:40 2023 ;
+; Revision Name                   ; Lab1Demo                              ;
+; Top-level Entity Name           ; TOP_VGA_DEMO_KBD                      ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/barak/OneDrive - Technion/ELabs/final_project/TnB_final_project.qar' into the 'C:/Users/barak/OneDrive - Technion/ELabs/final_project/TnB_final_project/' directory
+Info: Generated report 'Lab1Demo.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Thu Sep 14 00:09:40 2023
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++------------------------------------------------------------+
+; Files Restored                                             ;
++------------------------------------------------------------+
+; File Name                                                  ;
++------------------------------------------------------------+
+; qar_info.json                                              ;
+; CLK_31P5.cmp                                               ;
+; CLK_31P5.qip                                               ;
+; CLK_31P5.sip                                               ;
+; CLK_31P5.spd                                               ;
+; CLK_31P5.v                                                 ;
+; CLK_31P5/CLK_31P5_0002.qip                                 ;
+; CLK_31P5/CLK_31P5_0002.v                                   ;
+; CLK_31P5_sim/CLK_31P5.vo                                   ;
+; Control_Block_sim.vwf                                      ;
+; DE10_Standard_Audio.sdc                                    ;
+; KBD_sim.vwf                                                ;
+; Lab1Demo.qpf                                               ;
+; Lab1Demo.qsf                                               ;
+; Lab1Demo_assignment_defaults.qdf                           ;
+; Number_position.bsf                                        ;
+; Number_position.qip                                        ;
+; Number_position.v                                          ;
+; Number_position_bb.v                                       ;
+; RTL/AUDIO/AUDIO.bdf                                        ;
+; RTL/AUDIO/SinTable.sv                                      ;
+; RTL/AUDIO/TOP_AUDIO.bdf                                    ;
+; RTL/AUDIO/ToneDecoder.sv                                   ;
+; RTL/AUDIO/addr_counter.sv                                  ;
+; RTL/AUDIO/audio_codec_controller/DualSerial2parallel.sv    ;
+; RTL/AUDIO/audio_codec_controller/audio_codec_controller.sv ;
+; RTL/AUDIO/audio_codec_controller/clock_500.sv              ;
+; RTL/AUDIO/audio_codec_controller/i2c.sv                    ;
+; RTL/AUDIO/prescaler.sv                                     ;
+; RTL/BG.mif                                                 ;
+; RTL/KEYBOARDX/KBDINTF.bdf                                  ;
+; RTL/KEYBOARDX/TOP_KBD.bdf                                  ;
+; RTL/KEYBOARDX/bitrec.sv                                    ;
+; RTL/KEYBOARDX/byterec.sv                                   ;
+; RTL/KEYBOARDX/keyPad_decoder.sv                            ;
+; RTL/KEYBOARDX/lpf.sv                                       ;
+; RTL/KEYBOARDX/random.sv                                    ;
+; RTL/KEYBOARDX/simple_up_counter.sv                         ;
+; RTL/Seg7/SEG7.SV                                           ;
+; RTL/VGA/Background_Block.bdf                               ;
+; RTL/VGA/COINS_DISPLAY.bdf                                  ;
+; RTL/VGA/CoinsMatrixBitMap.sv                               ;
+; RTL/VGA/Control_Block.bdf                                  ;
+; RTL/VGA/HART_DISPLAY.bdf                                   ;
+; RTL/VGA/HartsMatrixBitMap.sv                               ;
+; RTL/VGA/MIF_drawingRequest.sv                              ;
+; RTL/VGA/Monster_Block.bdf                                  ;
+; RTL/VGA/NumbersBitMap.sv                                   ;
+; RTL/VGA/NumbersBitMap_time.sv                              ;
+; RTL/VGA/PacmanBitMap.SV                                    ;
+; RTL/VGA/Pacman_Block.bdf                                   ;
+; RTL/VGA/PowerUps_Unit.sv                                   ;
+; RTL/VGA/RandomWalls_Block.bdf                              ;
+; RTL/VGA/Score_Block.bdf                                    ;
+; RTL/VGA/Score_and_Time_Display_Block.bdf                   ;
+; RTL/VGA/Smiley_Block_T.bdf                                 ;
+; RTL/VGA/TIMER_DISPLAY.bdf                                  ;
+; RTL/VGA/TOP_VGA_DEMO_KBD.bdf                               ;
+; RTL/VGA/VGA_Controller.sv                                  ;
+; RTL/VGA/WallsMatrixBitMap.sv                               ;
+; RTL/VGA/audio_choose_block.sv                              ;
+; RTL/VGA/back_ground_draw.sv                                ;
+; RTL/VGA/bcddn.sv                                           ;
+; RTL/VGA/collision_unit.sv                                  ;
+; RTL/VGA/down_counter.sv                                    ;
+; RTL/VGA/ending_screenBitMap.SV                             ;
+; RTL/VGA/game_controller.sv                                 ;
+; RTL/VGA/game_controller_update.sv                          ;
+; RTL/VGA/monsterBitMap.sv                                   ;
+; RTL/VGA/monsterDiagonal_randomCollision_block.sv           ;
+; RTL/VGA/monster_diagonal_move_RANDOM.sv                    ;
+; RTL/VGA/monster_diagonal_randomBitMap.sv                   ;
+; RTL/VGA/monster_move.sv                                    ;
+; RTL/VGA/monster_move_RANDOM.sv                             ;
+; RTL/VGA/monster_randomBitMap.sv                            ;
+; RTL/VGA/monster_randomCollision_block.sv                   ;
+; RTL/VGA/objects_mux.sv                                     ;
+; RTL/VGA/objects_mux_updated.sv                             ;
+; RTL/VGA/one_sec_counter.sv                                 ;
+; RTL/VGA/opening_screen_roundBitMap.SV                      ;
+; RTL/VGA/pacmanCollision.sv                                 ;
+; RTL/VGA/pacman_move.sv                                     ;
+; RTL/VGA/randomWalls_and_Objects_control.sv                 ;
+; RTL/VGA/smileyBitMap.sv                                    ;
+; RTL/VGA/smileyBitMap_Ymiror.sv                             ;
+; RTL/VGA/smiley_move.sv                                     ;
+; RTL/VGA/sound_sec_counter.sv                               ;
+; RTL/VGA/square_Hart_object.sv                              ;
+; RTL/VGA/square_object.sv                                   ;
+; RTL/VGA/timer.sv                                           ;
+; RTL/VGA/up_counter.sv                                      ;
+; RTL/VGA/valX.bsf                                           ;
+; RTL/VGA/valX.qip                                           ;
+; RTL/VGA/valX.v                                             ;
+; RTL/VGA/valX_bb.v                                          ;
+; RTL/VGA/valX_inst.v                                        ;
+; WallsMatrixBitMap_sim.vwf                                  ;
+; assignment_defaults.qdf                                    ;
+; constraints/DE10_Standard_Audio.sdc                        ;
+; constraints/pin.tcl                                        ;
+; db/stp_randomY_square_object_auto_stripped.stp             ;
+; game_controller_sim.vwf                                    ;
+; output_files/Chain1.cdf                                    ;
+; pacman_move_sim.vwf                                        ;
+; randomWalls_and_Objects_control_sim.vwf                    ;
+; stp_randomY_square_object.stp                              ;
++------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
